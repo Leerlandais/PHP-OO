@@ -5,7 +5,7 @@ abstract class PersoAbstract {
     
     // PROPERTIES
     protected ?string $name;
-    protected ?int $healthPoint;
+    protected int $healthPoint = 1000;
     protected int $experience = 0;
     
     // CONSTS
@@ -15,6 +15,9 @@ abstract class PersoAbstract {
     "Nain",
     "Cyborg",
     ];
+
+    protected const THROW_DICE_SMALL = 6;
+    protected const THROW_DICE_BIG   = 20;
     
     // METHODS
     public function __construct(string $theName)
