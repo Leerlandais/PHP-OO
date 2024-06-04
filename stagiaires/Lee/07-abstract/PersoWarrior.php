@@ -1,6 +1,15 @@
 <?php
 
 class PersoWarrior extends PersoAbstract{
+
+    protected int $strength   = 100;
+    protected int $resistance = 100;
+
+    public function __construct(string $theName, string $theEspece)
+    {
+        parent::__construct($theName, $theEspece);
+    }
+  
  
     public function getHealthPoint() : ?int
     {
