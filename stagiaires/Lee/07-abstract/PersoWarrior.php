@@ -47,4 +47,8 @@ class PersoWarrior extends PersoAbstract{
         return;
     }
 
+    protected function initPerso()
+    {
+        
+    }
 }

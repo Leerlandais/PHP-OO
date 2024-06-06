@@ -24,7 +24,7 @@ abstract class PersoAbstract {
     {
         $this->setName($theName);
     }                   
-    
+     
     
     /**
      * Get the value of name

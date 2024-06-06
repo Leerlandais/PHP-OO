@@ -26,4 +26,4 @@ require_once "PersoWarrior.php";
 
 
 </body>
-</html>
+</html> 
